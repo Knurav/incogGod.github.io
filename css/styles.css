@@ -2,58 +2,65 @@ body {
     background-color: #000000;
 }
 
+a {
+    text-decoration: none;
+}
+
 hr {
     border-style: dotted none none none;
     border-color: grey;
     border-width: 5px;
-    width: 10%;   
+    width: 10%;
 }
 
-h1 { 
-    color: rgb(163, 163, 163); 
-    font-family: 'Helvetica Neue', sans-serif; 
-    font-size: 65px; 
-    font-weight: bold; 
-    letter-spacing: -1px; 
-    line-height: 1; 
-    text-align: left; 
-}
-
-h3 { 
-    color: rgb(163, 163, 163); 
-    font-family: 'Helvetica Neue', sans-serif; 
-    font-size: 35px; 
+h1 {
+    color: rgb(163, 163, 163);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 65px;
     font-weight: bold;
-    letter-spacing: -1px; 
-    line-height: 1; 
-    text-align: left; 
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: left;
+}
+
+h3 {
+    color: rgb(163, 163, 163);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: left;
 }
 
 html {
     font-family: "Helvetica Neue", "Arial", sans-serif;
     font-weight: 100;
-    width: 80%;
+    width: 95%;
     font-variant-ligatures: normal;
     font-size: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 0.842);
     letter-spacing: 1px;
-    margin: 20px 30px 24px; 
+    margin: 20px 30px 24px;
     text-align: justify;
-  }
+}
 
-  table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
-  }
+}
 
-  th, td {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 50px;
-  }
+th,
+td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-  .footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -61,4 +68,9 @@ html {
     background-color: rgb(16, 14, 14);
     color: white;
     text-align: center;
-  }
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
