@@ -13,72 +13,67 @@
 
 <body>
 
-    <h1>&nbsp;Let's Connect !</h1>
-    <table cellspacing="50">
-        <tr>
-            <td><a href="../index.html" style="color:brown">Home</a></td>
-            <td><a href="https://twitter.com/incogGod" style="color:brown">Twitter</a></td>
-            <td><a href="https://github.com/incogGod" style="color:brown">GitHub</a></td>
-            <td><a href="https://blog.incoggod.in" style="color:brown">Blog</a></td>
-        </tr>
-    </table>
-    <p> You can directly send me email at this address <a href="mailto:contact.fmail@slmail.me"
-            style="color:brown">contact.fmail@slmail.me</a> or use the below contact form for the same.</p>
+    <center>
+        <table cellspacing="20">
+            <td style="padding: 0px 50px 0px 0px;"><img src="../images/incogGod.jpeg" width="200" height="200"
+                    alt="incogGod"></td>
+            <td style="padding: 0px 5px 0px 0px;">
+                <center>
+                    <p><i>Hi,</i></p>
+                </center>
+                <h1 style="margin-top:0;"><span class="incog"></span>Let's Connect !</h1>
+            </td>
+        </table>
+    </center>
+
+    <center>
+        <table cellspacing="50">
+            <tr>
+                <td><a href="../index.html" style="color:brown">Home</a></td>
+                <td><a href="https://twitter.com/incogGod" style="color:brown" target="_blank"
+                        rel="noopener noreferrer">Twitter</a></td>
+                <td><a href="https://github.com/incogGod" style="color:brown" target="_blank"
+                        rel="noopener noreferrer">GitHub</a></td>
+                <td><a href="https://blog.incogGod.in" style="color:brown" target="_blank"
+                        rel="noopener noreferrer">Blog</a></td>
+            </tr>
+        </table>
+
+        <p> You can directly send me email at this address <a href="mailto:contact.fmail@slmail.me"
+                style="color:brown">contact.fmail@slmail.me</a> or use the below contact form for the same.</p><br>
+
+        <div class="contactform">
+            <form onsubmit="contactFormDeactivated(); reset(); return false;">
+                <h3>GET IN TOUCH</h3>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Email ID" required>
+                <textarea id="message" rows="4" placeholder="Say Hi !"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <br><br><br><br>
+        </div>
+
+    </center>
+    <br><br>
 
 
-    <form method="post" action="https://forms.un-static.com/forms/bc0fe36c6f5534f9825d7b63e8aaa3b47d174ca4">
-        <div class="form-group row">
-            <label for="name" class="col-4 col-form-label">Name</label>
-            <div class="col-8">
-                <div class="input-group">
-                    <div class="input-group-addon">
-                        <i class="fa fa-user"></i>
-                    </div>
-                    <input id="name" name="name" placeholder="Please enter your name" type="text" required="required"
-                        class="form-control">
-                </div>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="email" class="col-4 col-form-label">E-mail</label>
-            <div class="col-8">
-                <div class="input-group">
-                    <div class="input-group-addon">
-                        <i class="fa fa-envelope"></i>
-                    </div>
-                    <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required"
-                        class="form-control">
-                </div>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="message" class="col-4 col-form-label">Message</label>
-            <div class="col-8">
-                <textarea id="message" name="message" cols="40" rows="10" required="required"
-                    class="form-control"></textarea>
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="offset-4 col-8">
-                <button name="submit" type="submit" class="btn btn-primary">Send Message</button>
-            </div>
-        </div>
-    </form>
-
-    <br><br><br><br><br><br>
     <div class="footer">
         <center>
-
             <table>
                 <tr>
-                    <td><a href="https://twitter.com/incogGod" style="color:rgb(109, 0, 0)">Twitter</a></td>
-                    <td><a href="https://github.com/incogGod" style="color:rgb(109, 0, 0)">GitHub</a></td>
-                    <td><a href="https://blog.incoggod.in" style="color:rgb(109, 0, 0)">Blog</a></td>
+                    <td><a href="https://twitter.com/incogGod" style="color:rgb(109, 0, 0)" target="_blank"
+                            rel="noopener noreferrer">Twitter</a></td>
+                    <td><a href="https://github.com/incogGod" style="color:rgb(109, 0, 0)" target="_blank"
+                            rel="noopener noreferrer">GitHub</a></td>
+                    <td><a href="https://blog.incogGod.in" style="color:rgb(109, 0, 0)" target="_blank"
+                            rel="noopener noreferrer">Blog</a></td>
                 </tr>
             </table>
         </center>
     </div>
 
+
 </body>
+<script src="../js/main.js"></script>
 
 </html>
